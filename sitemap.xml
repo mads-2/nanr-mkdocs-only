@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/</loc>
+         <lastmod>2025-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/1_seam_sampling/</loc>
+         <lastmod>2025-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/2_clustering/</loc>
+         <lastmod>2025-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/3_meci_optimization/</loc>
+         <lastmod>2025-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/4_cone_sampling/</loc>
+         <lastmod>2025-10-24</lastmod>
+    </url>
+    <url>
+         <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/5_relaxation/</loc>
+         <lastmod>2025-10-24</lastmod>
+    </url>
+</urlset>
