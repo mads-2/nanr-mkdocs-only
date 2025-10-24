@@ -22,7 +22,7 @@
     
     
       
-        <title>🌌 Clustering - Nonadiabatic Nanoreactor Use Guide</title>
+        <title>2. 🌌 Clustering - Nonadiabatic Nanoreactor Use Guide</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🌌 Clustering
+              2. 🌌 Clustering
             
           </span>
         </div>
@@ -255,7 +255,7 @@
   
   
   <span class="md-ellipsis">
-    🔍 Seam Sampling
+    1. 🔍 Seam Sampling
     
   </span>
   
@@ -286,7 +286,7 @@
   
   
   <span class="md-ellipsis">
-    🌌 Clustering
+    2. 🌌 Clustering
     
   </span>
   
@@ -299,7 +299,7 @@
   
   
   <span class="md-ellipsis">
-    🌌 Clustering
+    2. 🌌 Clustering
     
   </span>
   
@@ -324,7 +324,7 @@
         <li class="md-nav__item">
   <a href="#concept-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 Concept Overview
+      Concept Overview
     </span>
   </a>
   
@@ -333,7 +333,7 @@
         <li class="md-nav__item">
   <a href="#step-by-step-clustering" class="md-nav__link">
     <span class="md-ellipsis">
-      🧮 Step-By-Step Clustering
+      Step-By-Step Clustering
     </span>
   </a>
   
@@ -342,7 +342,7 @@
         <li class="md-nav__item">
   <a href="#outputs" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Outputs
+      Outputs
     </span>
   </a>
   
@@ -368,7 +368,7 @@
   
   
   <span class="md-ellipsis">
-    ⏳ MECI Optimization
+    3. ⏳ MECI Optimization
     
   </span>
   
@@ -390,7 +390,7 @@
   
   
   <span class="md-ellipsis">
-    🍦 Cone Sampling
+    4. 🍦 Cone Sampling
     
   </span>
   
@@ -412,7 +412,7 @@
   
   
   <span class="md-ellipsis">
-    🏖️ Relaxation
+    5. 🏖️ Relaxation
     
   </span>
   
@@ -443,7 +443,7 @@
 <p>📖 In the <strong>Clustering</strong> step, NANR organizes the large set of geometries collected during seam sampling into groups (<strong>clusters</strong>) that represent distinct regions of the intersection seam. Each cluster's <strong>centroid</strong> becomes a starting point for a <strong>MECI optimization</strong>.</p>
 </blockquote>
 <hr />
-<h2 id="concept-overview">🧠 Concept Overview<a class="headerlink" href="#concept-overview" title="Permanent link">&para;</a></h2>
+<h2 id="concept-overview">Concept Overview<a class="headerlink" href="#concept-overview" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Each geometry is aligned and compared using rotational and atomic label permutations to account for molecular symmetry.</li>
 <li>The algorithm applies a <strong>clustering method</strong> (typically <em>k-means</em>, though <strong>DBSCAN</strong> and others are supported) based on <strong>Euclidean distance</strong> between geometries.</li>
@@ -452,7 +452,7 @@
 <li>This step reduces redundancy and captures distinct structural regions along the sampled seam.</li>
 </ul>
 <hr />
-<h2 id="step-by-step-clustering">🧮 Step-By-Step Clustering<a class="headerlink" href="#step-by-step-clustering" title="Permanent link">&para;</a></h2>
+<h2 id="step-by-step-clustering">Step-By-Step Clustering<a class="headerlink" href="#step-by-step-clustering" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p><strong>Create a clustering directory</strong>
@@ -514,7 +514,7 @@ sbatch<span class="w"> </span>submit.sh
 </li>
 </ol>
 <hr />
-<h2 id="outputs">📦 Outputs<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
+<h2 id="outputs">Outputs<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>clustered.xyz</code> → optional file containing combined cluster outputs  </li>
 <li><code>centroid#.xyz</code> → representative centroid structures  </li>
