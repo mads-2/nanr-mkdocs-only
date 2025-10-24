@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 Concept Overview
+## Concept Overview
 
 - Each geometry is aligned and compared using rotational and atomic label permutations to account for molecular symmetry.
 - The algorithm applies a **clustering method** (typically *k-means*, though **DBSCAN** and others are supported) based on **Euclidean distance** between geometries.
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧮 Step-By-Step Clustering
+## Step-By-Step Clustering
 
 1. **Create a clustering directory**
    ```bash
@@ -76,7 +76,7 @@
 
 ---
 
-## 📦 Outputs
+## Outputs
 
 - `clustered.xyz` → optional file containing combined cluster outputs  
 - `centroid#.xyz` → representative centroid structures  

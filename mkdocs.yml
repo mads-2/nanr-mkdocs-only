@@ -42,9 +42,9 @@ markdown_extensions:
 
 nav:
   - 🏠 Home: index.md
-  - 🔍 Seam Sampling: 1_seam_sampling.md
-  - 🌌 Clustering: 2_clustering.md
-  - ⏳ MECI Optimization: 3_meci_optimization.md
-  - 🍦 Cone Sampling: 4_cone_sampling.md
-  - 🏖️ Relaxation: 5_relaxation.md
+  - 1. 🔍 Seam Sampling: 1_seam_sampling.md
+  - 2. 🌌 Clustering: 2_clustering.md
+  - 3. ⏳ MECI Optimization: 3_meci_optimization.md
+  - 4. 🍦 Cone Sampling: 4_cone_sampling.md
+  - 5. 🏖️ Relaxation: 5_relaxation.md
 

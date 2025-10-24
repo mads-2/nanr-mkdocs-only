@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 Concept Overview
+## Concept Overview
 
 - NANR uses **RMSD-based collective variables (CVs)** to drive the system along the seam.  
 - Periodic **Gaussian bias potentials** are added to discourage revisiting previous configurations.  
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧮 Step-By-Step Seam Sampling
+## Step-By-Step Seam Sampling
 
 1. **Create a working directory**
    ```bash
@@ -103,7 +103,7 @@
 
 ---
 
-## 📦 Outputs
+## Outputs
 
 - `seam_traj.xyz` → full metadynamics trajectory  
 - `full_geom_seam.xyz` → all collected geometries for clustering  

@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 Concept Overview
+## Concept Overview
 
 - Each **cone point** generated during cone sampling is used as a starting geometry.
 - NANR provides three relaxation workflows:
@@ -107,7 +107,7 @@
 
 ---
 
-## 📦 Outputs
+## Outputs
 
 - `opt.out` → TeraChem optimization log  
 - `optim.xyz` → converged geometry  

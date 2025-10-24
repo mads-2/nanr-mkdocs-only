@@ -4,7 +4,7 @@
 
 ---
 
-## 🧠 Concept Overview
+## Concept Overview
 
 - Each cluster’s **centroid** geometry serves as an initial guess for MECI optimization.
 - MECI searches refine the geometry to the point of degeneracy between two electronic states with identical multiplicity.
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧰 Step-By-Step MECI Optimization
+## Step-By-Step MECI Optimization
 
 1. **Create directories for each centroid**
    ```bash
@@ -84,7 +84,7 @@
 
 ---
 
-## 📦 Outputs
+## Outputs
 
 - `scr.centroid#/optim.xyz` → optimized MECI geometry  
 - `tc.out` → full TeraChem output log  
