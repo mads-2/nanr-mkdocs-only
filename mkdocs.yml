@@ -1,5 +1,5 @@
 site_name: Nonadiabatic Nanoreactor Use Guide
-site_url: https://YOUR-USERNAME.github.io/YOUR-REPO
+site_url: https://mads-2.github.io/nanr-mkdocs-only/
 
 theme:
   name: material
@@ -8,19 +8,13 @@ theme:
     code: JetBrains Mono
   palette:
     - scheme: default
-      primary: custom
-      accent: custom
-      background: "#bfc4c6"
-      surface: "#aeb5b8"
-      primary: "#9be4b0"
-      accent: "#8cc9f8"
-      text: "#5a9acb"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     - scheme: slate
-      primary: "#8cc9f8"
-      accent: "#9be4b0"
-      background: "#1a1f22"
-      surface: "#2a2e33"
-      text: "#bfe6ff"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.sections
     - navigation.expand
