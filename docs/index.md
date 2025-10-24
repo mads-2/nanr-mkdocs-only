@@ -47,4 +47,4 @@ The NANR explores photochemical reactivity by combining *metadynamics* and *seam
 │       │           ├── submit.sh
 │       │           └── scr.start/optim.xyz
 └── logs/, figures/, or results/ (optional)
-
+```
