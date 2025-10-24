@@ -1,0 +1,50 @@
+site_name: Nonadiabatic Nanoreactor Use Guide
+site_url: https://YOUR-USERNAME.github.io/YOUR-REPO
+
+theme:
+  name: material
+  font:
+    text: Quicksand
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      background: "#bfc4c6"
+      surface: "#aeb5b8"
+      primary: "#9be4b0"
+      accent: "#8cc9f8"
+      text: "#5a9acb"
+    - scheme: slate
+      primary: "#8cc9f8"
+      accent: "#9be4b0"
+      background: "#1a1f22"
+      surface: "#2a2e33"
+      text: "#bfe6ff"
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - toc.integrate
+
+extra_css:
+  - styles/frutiger_aero.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
+nav:
+  - 🏠 Home: index.md
+  - 🔍 Seam Sampling: 1_seam_sampling.md
+  - 🌌 Clustering: 2_clustering.md
+  - ⏳ MECI Optimization: 3_meci_optimization.md
+  - 🍦 Cone Sampling: 4_cone_sampling.md
+  - 🏖️ Relaxation: 5_relaxation.md
+

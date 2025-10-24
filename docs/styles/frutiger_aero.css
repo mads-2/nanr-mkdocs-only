@@ -1,0 +1,52 @@
+:root {
+  --md-primary-fg-color: #9be4b0;      /* mint */
+  --md-accent-fg-color: #8cc9f8;       /* aero blue */
+  --md-default-bg-color: #bfc4c6;      /* mist */
+  --md-default-fg-color: #5a9acb;      /* blueberry */
+  --md-typeset-a-color: #8cc9f8;       /* links */
+  --md-code-bg-color: #f0f4f5;
+  --md-code-fg-color: #4b91c9;
+  --md-shadow-z2: 0 4px 16px rgba(155, 228, 176, 0.2);
+  --md-shadow-z3: 0 8px 24px rgba(140, 201, 248, 0.25);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #8cc9f8;
+  --md-accent-fg-color: #9be4b0;
+  --md-default-bg-color: #1a1f22;
+  --md-default-fg-color: #bfe6ff;
+  --md-typeset-a-color: #9be4b0;
+  --md-code-bg-color: #22292f;
+  --md-code-fg-color: #9be4b0;
+}
+
+/* softer blocks + glow */
+.md-typeset code {
+  background-color: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
+}
+
+.md-typeset pre {
+  border-radius: 10px;
+  box-shadow: var(--md-shadow-z2);
+}
+
+a:hover {
+  color: var(--md-accent-fg-color);
+  text-shadow: 0 0 8px rgba(140, 201, 248, 0.4);
+  transition: all 0.2s ease-in-out;
+}
+
+.md-content h2 {
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  padding-bottom: 0.25em;
+  margin-bottom: 0.75em;
+}
+
+.md-typeset .admonition {
+  border-radius: 12px;
+  box-shadow: var(--md-shadow-z3);
+}
+
