@@ -6,24 +6,24 @@
 
 ---
 
-## ❕ Important External Info
+## Important External Info
 
 - GitHub: [Nonadiabatic Nanoreactor – major branch](https://github.com/mtzgroup/NonadiabaticNanoreactor/tree/major)
 - Paper: [Chemical Science (2021)](https://pubs.rsc.org/en/content/articlelanding/2021/sc/d1sc00775k)
 
 ---
 
-## 🧪 The Science behind NANR
+## The Science behind NANR
 The NANR explores photochemical reactivity by combining *metadynamics* and *seam constraints* to locate conical intersections efficiently.
 
 ---
 
-## 🖥️ The Environment
+## The Environment
 > ❗ Make sure to `conda activate nanr` before running.
 
 ---
 
-## 🧩 Recommended Directory Structure
+## Recommended Directory Structure
 
 ```bash
 <molecule>/
