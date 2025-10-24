@@ -24,6 +24,7 @@ The NANR explores photochemical reactivity by combining *metadynamics* and *seam
 ---
 
 ## Recommended Directory Structure
+## 🧩 Recommended Directory Structure
 
 ```bash
 <molecule>/
@@ -47,4 +48,3 @@ The NANR explores photochemical reactivity by combining *metadynamics* and *seam
 │       │           ├── submit.sh
 │       │           └── scr.start/optim.xyz
 └── logs/, figures/, or results/ (optional)
-```
