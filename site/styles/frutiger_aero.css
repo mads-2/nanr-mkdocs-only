@@ -1,23 +1,24 @@
 :root {
-  --md-primary-fg-color: #9be4b0;      /* mint */
-  --md-accent-fg-color: #8cc9f8;       /* aero blue */
-  --md-default-bg-color: #bfc4c6;      /* mist */
-  --md-default-fg-color: #5a9acb;      /* blueberry */
-  --md-typeset-a-color: #8cc9f8;       /* links */
-  --md-code-bg-color: #f0f4f5;
-  --md-code-fg-color: #4b91c9;
-  --md-shadow-z2: 0 4px 16px rgba(155, 228, 176, 0.2);
-  --md-shadow-z3: 0 8px 24px rgba(140, 201, 248, 0.25);
+:root {
+  --md-primary-fg-color: #6edb94;      /* deeper mint */
+  --md-accent-fg-color: #4db5f7;       /* saturated aero blue */
+  --md-default-bg-color: #b8c0c3;      /* slightly darker mist */
+  --md-default-fg-color: #3c7bab;      /* deeper blue text */
+  --md-typeset-a-color: #4db5f7;       /* link color */
+  --md-code-bg-color: #eaf3f4;
+  --md-code-fg-color: #316c9b;
+  --md-shadow-z2: 0 4px 16px rgba(77, 181, 247, 0.25);
+  --md-shadow-z3: 0 8px 24px rgba(110, 219, 148, 0.25);
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #8cc9f8;
-  --md-accent-fg-color: #9be4b0;
-  --md-default-bg-color: #1a1f22;
-  --md-default-fg-color: #bfe6ff;
-  --md-typeset-a-color: #9be4b0;
-  --md-code-bg-color: #22292f;
-  --md-code-fg-color: #9be4b0;
+  --md-primary-fg-color: #4db5f7;
+  --md-accent-fg-color: #6edb94;
+  --md-default-bg-color: #171c20;
+  --md-default-fg-color: #b8e0ff;
+  --md-typeset-a-color: #6edb94;
+  --md-code-bg-color: #1d252b;
+  --md-code-fg-color: #6edb94;
 }
 
 /* softer blocks + glow */

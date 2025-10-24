@@ -22,7 +22,7 @@
     
     
       
-        <title>⏳ MECI Optimization - Nonadiabatic Nanoreactor Use Guide</title>
+        <title>3. ⏳ MECI Optimization - Nonadiabatic Nanoreactor Use Guide</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ⏳ MECI Optimization
+              3. ⏳ MECI Optimization
             
           </span>
         </div>
@@ -255,7 +255,7 @@
   
   
   <span class="md-ellipsis">
-    🔍 Seam Sampling
+    1. 🔍 Seam Sampling
     
   </span>
   
@@ -277,7 +277,7 @@
   
   
   <span class="md-ellipsis">
-    🌌 Clustering
+    2. 🌌 Clustering
     
   </span>
   
@@ -308,7 +308,7 @@
   
   
   <span class="md-ellipsis">
-    ⏳ MECI Optimization
+    3. ⏳ MECI Optimization
     
   </span>
   
@@ -321,7 +321,7 @@
   
   
   <span class="md-ellipsis">
-    ⏳ MECI Optimization
+    3. ⏳ MECI Optimization
     
   </span>
   
@@ -346,7 +346,7 @@
         <li class="md-nav__item">
   <a href="#concept-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 Concept Overview
+      Concept Overview
     </span>
   </a>
   
@@ -355,7 +355,7 @@
         <li class="md-nav__item">
   <a href="#step-by-step-meci-optimization" class="md-nav__link">
     <span class="md-ellipsis">
-      🧰 Step-By-Step MECI Optimization
+      Step-By-Step MECI Optimization
     </span>
   </a>
   
@@ -364,7 +364,7 @@
         <li class="md-nav__item">
   <a href="#outputs" class="md-nav__link">
     <span class="md-ellipsis">
-      📦 Outputs
+      Outputs
     </span>
   </a>
   
@@ -390,7 +390,7 @@
   
   
   <span class="md-ellipsis">
-    🍦 Cone Sampling
+    4. 🍦 Cone Sampling
     
   </span>
   
@@ -412,7 +412,7 @@
   
   
   <span class="md-ellipsis">
-    🏖️ Relaxation
+    5. 🏖️ Relaxation
     
   </span>
   
@@ -443,7 +443,7 @@
 <p>📖 In the <strong>MECI Optimization</strong> step, each cluster’s centroid from the previous stage is refined to locate a <strong>Minimum Energy Conical Intersection (MECI)</strong> using multireference electronic structure methods such as <strong>CASSCF</strong>, <strong>FOMO-CASCI</strong>, or <strong>hhTDA</strong>.</p>
 </blockquote>
 <hr />
-<h2 id="concept-overview">🧠 Concept Overview<a class="headerlink" href="#concept-overview" title="Permanent link">&para;</a></h2>
+<h2 id="concept-overview">Concept Overview<a class="headerlink" href="#concept-overview" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Each cluster’s <strong>centroid</strong> geometry serves as an initial guess for MECI optimization.</li>
 <li>MECI searches refine the geometry to the point of degeneracy between two electronic states with identical multiplicity.</li>
@@ -451,7 +451,7 @@
 <li>These structures help map the accessible parts of the conical intersection space.</li>
 </ul>
 <hr />
-<h2 id="step-by-step-meci-optimization">🧰 Step-By-Step MECI Optimization<a class="headerlink" href="#step-by-step-meci-optimization" title="Permanent link">&para;</a></h2>
+<h2 id="step-by-step-meci-optimization">Step-By-Step MECI Optimization<a class="headerlink" href="#step-by-step-meci-optimization" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p><strong>Create directories for each centroid</strong>
@@ -522,7 +522,7 @@ terachem<span class="w"> </span>tc.in<span class="w"> </span>&gt;<span class="w"
 </li>
 </ol>
 <hr />
-<h2 id="outputs">📦 Outputs<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
+<h2 id="outputs">Outputs<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>scr.centroid#/optim.xyz</code> → optimized MECI geometry  </li>
 <li><code>tc.out</code> → full TeraChem output log  </li>
